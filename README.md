@@ -65,7 +65,7 @@ Simple application script of IOPLIN, and the required dataset and default model 
 ```bash
 $ python pretrain.py --batch_size=32 --epoch=10
 ```
-### train
+### Train
 ```bash
 $ python train.py --batch_size=32 --epoch=10 --path_pretrain_model=path/pretrain_model.h5
 ```
