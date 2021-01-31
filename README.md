@@ -58,7 +58,7 @@ model = ioplin.train(model,data_x,data_y)
 ```
 
 ## Script
-
+Simple application script of ioplin, and the required default model and default dataset are stored in [Google Drive](https://drive.google.com/drive/folders/1eNu3IJ_N4ND3rlvuADsQd19wTIxE_T9Y?usp=sharing)
 ### Pretrain
 ```bash
 $ python pretrain.py --batch_size=32 --epoch=10
