@@ -1,7 +1,9 @@
 # IOPLIN 
 The project is the keras implementation and simple application of IOPLIN. The source code is placed at /ioplin, the script is placed at /script, the required mini dataset is placed at /miniset, and the predict results shuold placed at /results.
 
-For more details of IOPLIN, please refer to the paper "An Iteratively Optimized Patch Label Inference Network for Automatic Pavement Disease Detection". You can find the paper in https://arxiv.org/pdf/2005.13298
+For more details of IOPLIN, please refer to the paper "An Iteratively Optimized Patch Label Inference Network for Automatic Pavement Disease Detection". You can find the paper in https://arxiv.org/pdf/2005.13298.
+
+For more details of the pavement dataset CQU-BPDD used in paper, please refer to [CQU-BPDD](https://huangsheng-cqu.github.io/).
 
 ## Installation
 
@@ -58,7 +60,7 @@ model = ioplin.train(model,data_x,data_y)
 ```
 
 ## Script
-Simple application script of ioplin, and the required default model and default dataset are stored in [Google Drive](https://drive.google.com/drive/folders/1eNu3IJ_N4ND3rlvuADsQd19wTIxE_T9Y?usp=sharing)
+Simple application script of IOPLIN, and the required dataset and default model of IOPLIN can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1eNu3IJ_N4ND3rlvuADsQd19wTIxE_T9Y?usp=sharing)
 ### Pretrain
 ```bash
 $ python pretrain.py --batch_size=32 --epoch=10
