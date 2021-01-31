@@ -1,0 +1,8 @@
+Keras==2.2.4
+Keras-Applications==1.0.8
+numpy
+opencv-python
+scikit-learn
+efficientnet==0.0.3
+tensorflow<=1.15.0
+h5py==2.10.0
