@@ -1,5 +1,5 @@
 # IOPLIN 
-The project is the keras implementation and simple application of IOPLIN. The source code is placed at /ioplin, the script is placed at /script, the required mini dataset is placed at /miniset, and the predict results shuold placed at /results.
+The project is the implementation of IOPLIN based on Keras. The source code is placed at [/ioplin](https://github.com/DearCaat/ioplin/tree/main/ioplin), the script is placed at [/script](https://github.com/DearCaat/ioplin/tree/main/script), and the required mini dataset should place at [/miniset](https://github.com/DearCaat/ioplin/tree/main/miniset).
 
 For more details of IOPLIN, please refer to the paper "An Iteratively Optimized Patch Label Inference Network for Automatic Pavement Disease Detection". You can find the paper in https://arxiv.org/pdf/2005.13298.
 
