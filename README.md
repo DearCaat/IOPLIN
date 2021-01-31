@@ -71,11 +71,11 @@ $ python train.py --batch_size=32 --epoch=10 --path_pretrain_model=path/pretrain
 ```
 ### Predict
 
-#### if you want to use the trained IOPLIN model to predict data, you should download the model file and  enter:
+#### If you want to use the trained IOPLIN model to predict data, you should download the model file and  enter:
 ```bash
 $ python predict.py --path_model=path/trained_model.h5 --positive_index=0 
 ```
-#### if you want to use the IOPLIN model trained by yourself to predict data, you only need enter:
+#### If you want to use the IOPLIN model trained by yourself to predict data, you only need enter:
 ```bash
 $ python predict.py --path_model=path/your_model.h5
 ```
