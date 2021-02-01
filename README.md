@@ -4,6 +4,7 @@ The project is the implementation of IOPLIN based on Keras. The source code is p
 For more details of IOPLIN, please refer to the paper "An Iteratively Optimized Patch Label Inference Network for Automatic Pavement Disease Detection". You can find the paper in https://arxiv.org/pdf/2005.13298.
 
 For more details of the pavement dataset CQU-BPDD used in paper, please refer to [CQU-BPDD](https://huangsheng-cqu.github.io/).
+Note: [CQU-BPDD](https://huangsheng-cqu.github.io/) can be only used in the uncommercial case and is licensed under [CC BY-NY-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Installation
 
