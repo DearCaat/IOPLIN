@@ -68,12 +68,16 @@ def preprocess_input(x,y=[]):
     for k in range(0,len(x)):
         if len(y) == 0:
             picts.append(pic(img = x[k],shuffle = True))
-            picts[k].cvtData(X,Y,is_y=False)
         else:
             picts.append(pic(img = x[k],label = y[k],shuffle = True))
+    del x
+    
+    for k in range(0,len(picts)):
+        if len(y) == 0:
+            picts[k].cvtData(X,Y,is_y=False)
+        else:
             picts[k].cvtData(X,Y)
-            
-    del x       
+
     X = np.array(X,'float16')    
     normalization(X)
     
