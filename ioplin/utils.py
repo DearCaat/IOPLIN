@@ -14,7 +14,6 @@ class roc_callback(Callback):
         self.x_val = validation_data[0]
         self.y_val = validation_data[1]
 
-
     def on_train_begin(self, logs={}):
         return
 
@@ -43,9 +42,8 @@ def convert_to_one_hot(Y, C):
     return Y
 
 def normalization(x):
-    x = x - (0.485*255)
-    x = x / (0.229*255)
-    return x
+    x -= (0.485*255)
+    x /= (0.229*255)
     
 def clahe_process(x):
     for i in range(0,len(x)):
@@ -67,7 +65,6 @@ def preprocess_input(x,y=[]):
     
     x = clahe_process(x)
     
-    
     for k in range(0,len(x)):
         if len(y) == 0:
             picts.append(pic(img = x[k],shuffle = True))
@@ -78,9 +75,7 @@ def preprocess_input(x,y=[]):
             
     del x       
     X = np.array(X,'float16')    
-    X = normalization(X)
-    
-    X = np.tile(X,(1,1,1,3))
+    normalization(X)
     
     if len(Y) != 0:
         Y = np.array(Y)
