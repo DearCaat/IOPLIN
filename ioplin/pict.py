@@ -184,7 +184,7 @@ class pic:
         num = len(self.labels_bin)
         if is_x:
             for i in range(0,num):
-                x.append(np.tile(self.pics[i]),(1,1,3)))
+                x.append(np.tile(self.pics[i]),(1,1,3))
             if is_del:
                 del self.pics
         if is_y:
